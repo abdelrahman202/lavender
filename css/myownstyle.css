@@ -1,0 +1,71 @@
+body{
+    direction: rtl!important;
+    font-family: "Cairo", sans-serif!important;
+}
+.top-bar-right{
+    text-align: left!important;
+}
+
+.main-nav .navbar-brand{
+    padding:0!important;
+}
+.main-slider, .owl-carousel{direction: ltr!important;}
+
+.top-bar-right .list-inline>li{direction: ltr!important;}
+.main-slider .slide-inner1, .main-slider .slide-inner2, .main-slider .slide-inner4{
+    text-align: right;
+    width: 55%;
+}
+.main-slider .common-inner .h1{
+    font-family: "Cairo", sans-serif!important;
+}
+.main-slider .owl-item.active .scale-up, .main-slider .owl-item.active .scale-down, .varietyContent h3, .varietyContent a{
+    font-family: "Cairo", sans-serif!important;
+}
+.aboutInfo{
+    padding: 0 95px 0 0;
+        text-align: right;
+}
+.aboutInfo h2{font-family: "Cairo", sans-serif!important;letter-spacing: 0;}
+.secotionTitle h2, .secotionTitle span{font-family: "Cairo", sans-serif!important;letter-spacing: 0;}
+.nav-tabs li a{font-family: "Cairo", sans-serif!important;}
+.varietyContent h3, .varietyContent p{text-align: right;}
+.productInfo{padding-top: 60px;}
+.productInfo p, .productInfo h3{text-align: center;font-family: "Cairo", sans-serif!important;}
+.rating{
+    justify-content: center;
+}
+.reviewInfo p{text-align: right;}
+
+.btn-primary.callBtn{
+    font-family: "Cairo", sans-serif!important;
+}
+
+.contact-{
+    display: flex;
+    flex-direction: column;
+}
+.contact- h2{font-family: "Cairo", sans-serif!important;}
+.contact- a{font-size: 23px;}
+.contact- a i{padding: 10px;}
+
+.owl-carousel .owl-stage{margin: 0 auto;}
+
+.main-nav .navbar-toggler{
+    left: 70px;
+    right: auto!important;
+}
+.main-nav .navbar-nav{text-align: right;}
+
+@media only screen and (max-width: 767px) {
+    .main-slider .slide-inner1, .main-slider .slide-inner2, .main-slider .slide-inner4{
+        width: 80%!important;
+        text-align: center;
+    }
+    .aboutInfo {
+        padding: 20px;
+        text-align: right;
+        background-color: inherit;
+    }
+    .callInfo p{text-align: right;}
+  }
